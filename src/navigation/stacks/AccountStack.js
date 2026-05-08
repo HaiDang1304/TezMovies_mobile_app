@@ -2,6 +2,7 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import AccountScreen from '../../screens/Account/AccountScreen';
 import ProfileScreen from '../../screens/Account/ProfileScreen';
+import PrimeSubscriptionScreen from '../../screens/Account/PrimeSubscriptionScreen';
 import AdminDashboardScreen from '../../screens/Admin/AdminDashboardScreen';
 import UserManagementScreen from '../../screens/Admin/UserManagementScreen';
 import MovieCrawlerScreen from '../../screens/Admin/MovieCrawlerScreen';
@@ -20,6 +21,7 @@ export default function AccountStack() {
     >
       <Stack.Screen name="Account" component={AccountScreen} />
       <Stack.Screen name="Profile" component={ProfileScreen} />
+      <Stack.Screen name="PrimeSubscription" component={PrimeSubscriptionScreen} />
       <Stack.Screen name="AdminDashboard" component={AdminDashboardScreen} />
       <Stack.Screen name="UserManagement" component={UserManagementScreen} />
       <Stack.Screen name="MovieCrawler" component={MovieCrawlerScreen} />

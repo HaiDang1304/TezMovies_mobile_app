@@ -4,6 +4,13 @@
     "slug": "tezmovies",
     "version": "1.0.0",
     "scheme": "tezmovies",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "checkAutomatically": "ON_ERROR_RECOVERY",
+      "fallbackToCacheTimeout": 0
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",

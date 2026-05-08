@@ -44,6 +44,7 @@ export default function AccountScreen({ navigation }) {
 
   const menuItems = [
     { icon: 'person-outline', label: 'Hồ sơ', screen: 'Profile' },
+    { icon: 'diamond-outline', label: 'Nâng cấp Prime', screen: 'PrimeSubscription' },
     { icon: 'heart-outline', label: 'Yêu thích', screen: 'Favorites', tab: 'FavoritesTab' },
     { icon: 'time-outline', label: 'Lịch sử xem', screen: 'WatchHistory', tab: 'HistoryTab' },
     { icon: 'people-outline', label: 'Watch Party', screen: 'WatchParty', root: true },
