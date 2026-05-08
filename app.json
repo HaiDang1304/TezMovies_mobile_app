@@ -9,7 +9,8 @@
     },
     "updates": {
       "checkAutomatically": "ON_ERROR_RECOVERY",
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/8b118a78-ca49-4126-adf8-4ba4c8c6b836"
     },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -38,6 +39,7 @@
       },
       "package": "com.tezmovies.app",
       "permissions": [
+        "INTERNET",
         "INTERNET"
       ]
     },
